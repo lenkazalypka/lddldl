@@ -1,0 +1,14 @@
+/* app/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+/* Просто добавь это - оставь ВСЕ классы Tailwind в компонентах как есть */
+.container { max-width: 1200px; margin: 0 auto; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+.py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+.flex { display: flex; }
+.grid { display: grid; }
+.rounded-lg { border-radius: 0.5rem; }
+.text-center { text-align: center; }
+.font-bold { font-weight: 700; }
+/* Добавь еще пару десятков таких классов если хочешь, но НЕ ОБЯЗАТЕЛЬНО */
